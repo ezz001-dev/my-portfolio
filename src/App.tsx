@@ -436,7 +436,7 @@ function App() {
               <div className="text-lg text-gray-300 space-y-4">
                 <p>Kecintaan saya pada teknologi berawal dari keinginan untuk memecahkan masalah. Bagi saya, coding bukan hanya tentang menulis baris perintah, tetapi tentang merancang solusi elegan yang memudahkan hidup orang lain.</p>
                 <p>Spesialisasi saya adalah membangun antarmuka pengguna yang 'hidup'—dari menangani tantangan teknis seperti migrasi besar pada framework Angular, hingga merancang setiap detail interaksi pengguna.</p>
-                <p className="pt-4 border-t border-gray-700/50 mt-6 font-semibold"><span className="text-teal-400">Selalu belajar:</span> Saat ini, saya aktif mengeksplorasi otomatisasi alur kerja (n8n) dan potensi Vector Database untuk membangun aplikasi AI generasi berikutnya.</p>
+                <p className="pt-4 border-t border-gray-700/50 mt-6 font-semibold"><span className="text-teal-400">Sedang belajar : </span> Saat ini, saya aktif mengeksplorasi otomatisasi alur kerja (n8n) dan potensi Vector Database untuk membangun aplikasi AI generasi berikutnya.</p>
               </div>
             </div>
           </div>
