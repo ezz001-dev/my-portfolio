@@ -433,7 +433,7 @@ function App() {
           <div className="container mx-auto px-6">
             <div className="text-center mb-16"><h2 className="text-4xl font-bold text-white">Sedikit Tentang Saya</h2><div className="w-24 h-1 bg-teal-500 mx-auto mt-4 rounded"></div></div>
             <div className="grid md:grid-cols-2 gap-16 items-center">
-              <div className="max-w-md mx-auto"><img src="https://placehold.co/600x600/1a202c/e2e8f0?text=AS" alt="Adi Sunjana" className="rounded-full shadow-2xl mx-auto w-64 h-64 md:w-80 md:h-80 object-cover border-4 border-gray-700" /></div>
+              <div className="max-w-md mx-auto"><img src="images/profile.jpg" alt="Adi Sunjana" className="rounded-full shadow-2xl mx-auto w-64 h-64 md:w-80 md:h-80 object-cover border-4 border-gray-700" /></div>
               <div className="text-lg text-gray-300 space-y-4">
                 <p>Kecintaan saya pada teknologi berawal dari keinginan untuk memecahkan masalah. Bagi saya, coding bukan hanya tentang menulis baris perintah, tetapi tentang merancang solusi elegan yang memudahkan hidup orang lain.</p>
                 <p>Spesialisasi saya adalah membangun antarmuka pengguna yang 'hidup'—dari menangani tantangan teknis seperti migrasi besar pada framework Angular, hingga merancang setiap detail interaksi pengguna.</p>
