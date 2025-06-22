@@ -318,10 +318,11 @@ const PortfolioSlider = () => {
             </div>
           ))}
         </div>
-        <button onClick={prevSlide} className="absolute top-1/2 -left-4 md:-left-12 transform -translate-y-1/2 bg-gray-800/50 hover:bg-gray-700/80 p-3 rounded-full text-white cursor-pointer transition-all duration-300 opacity-0 group-hover:opacity-100">
+        {/* PERBAIKAN: Tombol sekarang selalu terlihat di mobile dan tetap memiliki efek hover di desktop */}
+        <button onClick={prevSlide} className="absolute top-1/2 left-2 md:-left-12 transform -translate-y-1/2 bg-black/40 hover:bg-black/60 p-2 rounded-full text-white cursor-pointer transition-all duration-300 z-10 md:opacity-0 md:group-hover:opacity-100">
           <FiChevronLeft className="w-6 h-6" />
         </button>
-        <button onClick={nextSlide} className="absolute top-1/2 -right-4 md:-right-12 transform -translate-y-1/2 bg-gray-800/50 hover:bg-gray-700/80 p-3 rounded-full text-white cursor-pointer transition-all duration-300 opacity-0 group-hover:opacity-100">
+        <button onClick={nextSlide} className="absolute top-1/2 right-2 md:-right-12 transform -translate-y-1/2 bg-black/40 hover:bg-black/60 p-2 rounded-full text-white cursor-pointer transition-all duration-300 z-10 md:opacity-0 md:group-hover:opacity-100">
           <FiChevronRight className="w-6 h-6" />
         </button>
       </div>
